@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+:root {
+    /* ### Primary */
+
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+
+    /* ### Neutral */
+
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.join {
+    background-color: white;
+    padding: 2rem;
+}
+
+.monthly {
+    background-color: var(--cyan);
+    padding: 2rem;
+    width: 295px;
+}
+
+.why {
+    background-color: hsl(179, 61%, 54%);
+    padding: 2rem;
+    width: 295px;
+}
+
+.container-one {
+    width: 590px;
+}
+
+.container-two {
+    width: 590px;
+}
+
+.join .title {
+    color: var(--cyan);
+    font-size: 20px;
+}
+
+.join .info {
+    color: var(--bright-yellow);
+    padding-top: 1rem;
+}
+
+.join .desc {
+    padding-top: .75rem;
+    color: var(--grayish-blue);
+}
+
+.monthly .title {
+    color: var(--light-gray);
+    font-size: 20px;
+}
+
+.monthly .price strong {
+    font-size: 2rem;
+    color: white;
+}
+
+.monthly .price {
+    color: var(--light-gray);
+    padding-top: 1rem;
+}
+
+.monthly .info {
+    color: white;
+    padding-top: .5rem;
+}
+
+.monthly .btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.monthly button {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: .4rem;
+    background-color: var(--bright-yellow);
+    color: white;
+    border: none;
+}
+
+.why .title {
+    color: var(--light-gray);
+    font-size: 20px;
+}
+
+.why .info {
+    padding-top: 1rem;
+    color: var(--light-gray);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    border-radius: 1rem;
+}
